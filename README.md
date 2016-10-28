@@ -31,7 +31,7 @@ Each line contains: Class | Survived | Name |  Sex | Age | Embark | Dest
 Your program should determine the following for the user:
 
 1. The total number of people to survive
-2. The percentage of each class who survived
+2. The percentage of each class who survived in the format "XX.X%" (e.g. 6.9%, 76.4%) 
 3. Save to a file (named by user) the names of everyone who survived and their destination, one name with their destination per line
 4. One other question of your choosing, although it MUST use at least one piece of data from a line that is not used in the 3 required questions OR do something very interesting with Name or Destination (there are so many questions you can ask about this data! Asking the right questions is part of data science. Pick what you'd like to answer that isn't essentially identical to one of the 3 required questions).
 
