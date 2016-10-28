@@ -15,9 +15,9 @@ The purpose of this assignment is to give you practice with
 4. error checking
 
 ## REQUIREMENTS ANALYSIS
-The first stage in your programming assignment is the requirements analysis stage.  You need to make sure you understand the below requirements for what your program needs to do. You have access to a file containing information on most of the Titanic passengers, and your job is to make the data in that file accessible to the user of your program.  There is some disagreement on the exact number of passengers on board during the disaster, but this file is close to being comprehensive. One “official” count is 1316 passengers. 
+The first stage in your programming assignment is the requirements analysis stage.  You need to make sure you understand the below requirements for what your program needs to do. You have access to a file containing information on most of the Titanic passengers, and your job is to make the data in that file accessible to the user of your program.  There is some disagreement on the exact number of passengers on board during the disaster, but this file is close to being comprehensive. One “official” count is 1316 passengers.
 
-The input data was taken from http://biostat.mc.vanderbilt.edu/twiki/bin/view/Main/DataSets but has been altered so that each of the 11 data values (fields) for each passenger is separated from the next by a vertical slash “|” (the character below the backspace key on most keyboards).  The altered file you have been provided is called 'titanic.txt', but you should ask the user for the name of the file to use as input.  Each passenger's line holds 7 pieces of data.  The data conforms to the following ordering: 
+The input data was taken from http://biostat.mc.vanderbilt.edu/twiki/bin/view/Main/DataSets but has been altered so that each of the 11 data values (fields) for each passenger is separated from the next by a vertical slash “|” (the character below the backspace key on most keyboards).  The altered file you have been provided is called 'titanic.txt', but you should ask the user for the name of the file to use as input. Your program should work for any file of the following format.  Each passenger's line holds 7 pieces of data.  The data conforms to the following ordering: 
 
 Each line contains: Class | Survived | Name |  Sex | Age | Embark | Dest  
 * Class is either 1 or 2 or 3  
