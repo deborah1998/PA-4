@@ -80,11 +80,11 @@ Write a short reflection about the programming assignment in reflection.txt: wha
 * To GitHub:
   * Your .py file
   * A brief description of why you deserve extra credit in extracredit.txt if applicable
-  * Your reflection of the programming assignment in reflection.txt
-  * Your final algorithm, including the changes you made based on the design feedback in designFinal.txt
-  * Your test cases in testcases.txt.
+  * Your reflection of the programming assignment (reflection.txt)
+  * Your final algorithm, including the changes you made based on the design feedback (designFinal.txt)
+  * Your testing input file of 10-15 lines (testinput.txt)
+  * Your test cases (testcases.txt)
 * Hardcopy in class:
-  * A flowchart of your program as described above, with control paths labeled
   * A printout of your .py file
 
 ***Remember to double check on github.com that your files pushed. If they didn’t, you need to push them. I can only see what is on github.com, not what is only on your computer.
