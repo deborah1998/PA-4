@@ -16,7 +16,7 @@ Algorithm:
 
 Function Name:process_file
 Purpose:process the file
-Parameters:inputfile,output file
+Parameters:input file,output file
 Return:None
 
 1.)Open the inputfile from the user.
@@ -48,13 +48,7 @@ Return:None
     *names of survivors(output file nested)
      6.)open a file for writing (output file)
         a.output name of survivors and their destinations to the  output file
-     7.)
-
-
-
-
-
-
+     7.)Close the output file
 
 
 
@@ -66,4 +60,4 @@ Return:none
 
 1.)Output the purpose of the program to the user
 2.)Call the read_in_file function
-3.)Call the
+3.)Call the process_file function
