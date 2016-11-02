@@ -19,7 +19,7 @@ Purpose:process the file
 Parameters:input file,output file
 Return:None
 
-1.)Open the inputfile from the user.
+1.)Open the input file from the user.
 2.)set count equal to zero
 3.)set sum equal to zero
 4.)For every line in input file:
@@ -41,7 +41,7 @@ Return:None
             ii)divide the  count by the total number of people
             iii)output the percentage of people from this class who survived
             *question of my choosing
-         f.if age is > 50
+         f.if age is > 50:
             i)add one to count
             ii)output the total number of people above the age of 50 who survived
      5.)close the input file
@@ -54,7 +54,7 @@ Return:None
 
 
 Function Name:main
-Purpose:
+Purpose:main
 Parameters:none
 Return:none
 
