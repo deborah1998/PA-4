@@ -20,13 +20,13 @@ The first stage in your programming assignment is the requirements analysis stag
 The input data was taken from http://biostat.mc.vanderbilt.edu/twiki/bin/view/Main/DataSets but has been altered so that each of the 11 data values (fields) for each passenger is separated from the next by a vertical slash “|” (the character below the backspace key on most keyboards).  The altered file you have been provided is called 'titanic.txt', but you should ask the user for the name of the file to use as input. Your program should work for any file of the following format.  Each passenger's line holds 7 pieces of data.  The data conforms to the following ordering: 
 
 Each line contains: Class | Survived | Name |  Sex | Age | Embark | Dest  
-* Class is either 1 or 2 or 3  
+* Class is either 1 or 2 or 3  Dest is a string but is not uniform in format.
 * Survived is either 1 or 0  (1 means survived and 0 means died)  
 * Name is a string  
 * Age is a real number  (babies have ages < 1; unavailable ages are shown as 0)  
 * Sex is either “female” or “male”  
 * Embark is either ‘C’ or ‘S’ or ’Q’  (for Cherbourg, Southampton, or Queenstown)  
-* Dest is a string but is not uniform in format. Unavailable data is shown as XXX.  
+*  Unavailable data is shown as XXX.
 
 Your program should determine the following for the user:
 

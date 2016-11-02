@@ -1,6 +1,6 @@
 
 
-My Question:How many people are on this ship were above the age of 50?
+My Question:How many people are on this ship were above the age of 50 who survived?
 
 
 Function Name:read_in_file
@@ -10,7 +10,7 @@ Return:filename
 Algorithm:
 
 1.)Ask the user to input a file
-2.)while the file does not exist
+2.)while the file does not exist:
     a.)ask the user to input a file
 3.)return filename
 
@@ -22,9 +22,27 @@ Parameters:input file,output file
 Return:None
 
 1.)Open the input file from the user.
-2.)For every line in the file
-    a.output
-3.)
+2.)set count equal to zero
+3.)set sum equal to zero
+2.)For every line in input file:
+    a.class|survived|name|sex|age|embark|destination = line.split("|")
+    b.if survived is 1:
+        i) add one to count
+        ii)set total number of people to survive  equal to the count
+        iii) output the total number of  people  to survive
+         c.if  class is 1:
+            i) add one to count
+            ii)divide the count by the total number of people to survive
+          d. elif class is 2
+            i)add one to count:
+            ii)divide the count by the total number of people to survive
+
+
+
+
+4.)close the file
+
+
 
 
 
