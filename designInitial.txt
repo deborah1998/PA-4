@@ -33,9 +33,13 @@ Return:None
          c.if  class is 1:
             i) add one to count
             ii)divide the count by the total number of people to survive
-          d. elif class is 2
-            i)add one to count:
+         d. elif class is 2:
+            i)add one to count
             ii)divide the count by the total number of people to survive
+         e.elif class is 3:
+            i)add one to count
+            ii)divide the  count by the total number of people
+
 
 
 
@@ -48,9 +52,9 @@ Return:None
 
 Function Name:main
 Purpose:
-Parameters:
+Parameters:none
 Return:none
 
 1.)Output the purpose of the program to the user
-2.)
-3.)
+2.)Call the read_in_file function
+3.)Call the
