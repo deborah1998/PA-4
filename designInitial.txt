@@ -30,17 +30,19 @@ Return:None
         iii) output the total number of  people  to survive
          c.if  class is 1:
             i) add one to count
-            ii)divide the count by the total number of people to survive
+            ii)divide the count by the total number of people to survive then multiply that by 100
             iii)output the percentage of people from this class who survived
          d. elif class is 2:
             i)add one to count
-            ii)divide the count by the total number of people to survive
+            ii)divide the count by the total number of people to survive then multiply that by 100
             iii)output the percentage of people from this class who survived
          e.elif class is 3:
             i)add one to count
-            ii)divide the  count by the total number of people
+            ii)divide the  count by the total number of people to survive then multiply that by 100
             iii)output the percentage of people from this class who survived
+
             *question of my choosing
+
          f.if age is > 50:
             i)add one to count
             ii)output the total number of people above the age of 50 who survived
