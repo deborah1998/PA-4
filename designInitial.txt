@@ -1,0 +1,38 @@
+
+
+My Question:How many people are on this ship were above the age of 50?
+
+
+Function Name:read_in_file
+Purpose:read in a file from the user and return it once they give one that exists
+Parameters:None
+Return:filename
+Algorithm:
+
+1.)Ask the user to input a file
+2.)while the file does not exist
+    a.)ask the user to input a file
+3.)return filename
+
+
+
+Function Name:process_file
+Purpose:process the file
+Parameters:input file,output file
+Return:None
+
+1.)Open the input file from the user.
+2.)For every line in the file
+    a.output
+3.)
+
+
+
+Function Name:main
+Purpose:
+Parameters:
+Return:none
+
+1.)Output the purpose of the program to the user
+2.)
+3.)

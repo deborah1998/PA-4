@@ -39,9 +39,11 @@ Your program should determine the following for the user:
 The second stage is to design your solution based on the requirements:
 
 1. Determine what you want your 4th question to be and list that at the top of designInitial.txt as "My question: ". Write in a similar format to the question above (so, as a question, not as how you will solve it).
-2. Determine the tasks being accomplished in your program. Although generally every task is a function, for our first file processing program you'll need to put all file processing in the same function. In a few weeks we'll learn how to store file data to process later. There are other tasks, however, that SHOULD be their own functions.
-3. Write an algorithm for each function. This algorithm includes parameters, calculations, and returned values. This algorithm should include your personally designed question.
-4. Double check that you included all of the requirements, and appropriate error checking.
+2. Determine the tasks being accomplished in your program. Although generally every task is a function,
+ for our first file processing program you'll need to put all file processing in the same function. In a few weeks we'll learn how to store file data to process later.
+ There are other tasks, however, that SHOULD be their own functions.
+i-03. Write an algorithm for each function. This algorithm includes parameters, calculations, and returned values.
+This algorithm should include your personally designed question. Double check that you included all of the requirements, and appropriate error checking.
 
 *NOTE:* There are no aspects of this design/code that you can google how to solve. The only appropriate googling will be if you want to understand more about the Titanic or its passengers.
 
