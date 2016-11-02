@@ -14,8 +14,6 @@ Algorithm:
     a.)ask the user to input a file
 3.)return filename
 
-
-
 Function Name:process_file
 Purpose:process the file
 Parameters:input file,output file
