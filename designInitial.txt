@@ -26,8 +26,9 @@ Return:None
     a.class|survived|name|sex|age|embark|destination = line.split("|")
     b.if survived is 1:
         i) add one to count
-        ii)set total number of people to survive  equal to the count
-        iii) output the total number of  people  to survive
+        ii)set the sum equal to the sum plus the numeric value of the line
+        iii)set total number of people to survive  equal to the sum
+        iv) output the total number of  people  to survive
          c.if  class is 1:
             i) add one to count
             ii)divide the count by the total number of people to survive then multiply that by 100
