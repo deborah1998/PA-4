@@ -1,0 +1,24 @@
+PA4 Design Grading
+Grade: 9/10
+
+[2/2]Properly reads from any file of the given format, with the name given by the user
+
+[0.75/1]Incorporates file error checking
+* Don't forget to use try/except
+
+[1/1]Finds total number who survived
+
+[0.75/1]Finds percentage of each class who survived
+* why do you have both a sum and a total number of people to survive? Aren't they the same thing?
+* You don't want to output any information until the loop is over, as that's when you'll have an answer
+* You can't find a percentage until you have a total, either, which is after you've processed the whole file
+* be careful about your counts -- you can't have 1 count keep track of 4 different values. Think about what you need to know to solve this problem.
+
+[1.5/2]Saves name/destination to a file, properly deals with output files
+* Need to incorporate into your for loop, as that's the only way you'll have access to each person
+
+[2/2]Chosen an appropriate question, described it, and included in algorithm
+* An even more interesting question could be to ask the user for an age, and then determine how many people above that age survived. That would give the user more control. If you do that, make sure user input happens in main, and you error check the number.
+* You can't output the result until after you've processed the entire file
+
+[1/1]Functions make sense
