@@ -45,7 +45,7 @@ def process_file(input_filename,outfile_name):
                     survivors_over_50 = (people_over_50 / num_of_survivors) * 100
 
                 input("Please enter the the name of the outputfile")
-                outputfile = open(outfile_name, "w")
+                outputfile = open(outfile_name.txt, "w")
                 print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,
                       "\nThe percentage  of survivors form class one were", survivors_1,
                       "\nThe percentage  of survivors form class two were", survivors_2,
