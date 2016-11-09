@@ -16,7 +16,7 @@ def read_in_file():
 
 def process_file(input_filename,outfile_name):
 
-    global survivors_2, survivors_over_50, survivors_3, survivors_1
+
     try:
 
         inputfile = open(input_filename, "r")
@@ -51,7 +51,7 @@ def process_file(input_filename,outfile_name):
                 outputfile = open(outfile_name.txt, "w")
                 print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
                 "\nThe percentage  of survivors form class two were", survivors_2, "\nThe percentage  of survivors form class one were", survivors_3,
-                "\nThe percentagesurvivors_over_50 were", survivors_over_50, file=outfile_name)
+                "\nThe percentagesurvivors_over_50 were",survivors_over_50, file=outfile_name)
 
 
                 outputfile.close()
