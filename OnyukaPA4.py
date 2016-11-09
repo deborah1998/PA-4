@@ -5,12 +5,15 @@ def read_in_file():
     filename = input("Please enter the file you would like to input")
     while not os.path.exists(filename):
         filename = input("Please enter the file you would like to input")
-    return filename
 
-def process_file(infilename):
+
+def process_file():
+    filename = input("Please enter the file you would like to input")
+    while not os.path.exists(filename):
+        filename = input("Please enter the file you would like to input")
     try:
 
-        inputfile = open(infilename,"r")
+        inputfile = open(filename,"r")
         num_of_survivors = 0
         people_class1 = 0
         people_class2 = 0
