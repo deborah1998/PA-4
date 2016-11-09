@@ -48,10 +48,7 @@ Return:None
             i)add one to count
             ii)output the total number of people above the age of 50 who survived
      5.)close the input file
-    *names of survivors(output file nested)
-     6.)open a file for writing (output file)
-        a.output name of survivors and their destinations to the  output file
-     7.)Close the output file
+
 
 
 

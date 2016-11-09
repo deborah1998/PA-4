@@ -5,9 +5,11 @@ def read_in_file():
     filename = input("Please enter the file you would like to input")
     while not os.path.exists(filename):
         filename = input("Please enter the file you would like to input")
+    return filename
 
 def process_file(infilename):
     try:
+
         inputfile = open(infilename,"r")
         num_of_survivors = 0
         people_class1 = 0
@@ -34,25 +36,25 @@ def process_file(infilename):
                     people_over_50+=1
                     survivors_over_50 = (people_over_50/num_of_survivors)*100
         inputfile.close()
+    except FileNotFoundError:
+        print("This file does not exist")
+        SystemExit(1)
 
 
 
-    except:FileNotFoundError
-    print("File does not exist")
-    SystemExit(1)
 
-    def main():
-        print("This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class."+
+        def main():
+            print("This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class."+
         "\nThis program will also determine how many people survived the titanic who were over the age of 50 years old")
-        read_in_file()
-        process_file()
-        outfile_name=input("Please enter the the name of the outputfile")
-        outputfile=open(outfile_name,"w")
-        print("The number of survivors on the titanic were ",num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
+            read_in_file()
+            process_file()
+            outfile_name=input("Please enter the the name of the outputfile")
+            outputfile=open(outfile_name,"w")
+            print(name,destination,"The number of survivors on the titanic were ",num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
         "\nThe percentage  of survivors form class two were",survivors_2 ,"\nThe percentage  of survivors form class one were",survivors_3,
         "\nThe percentagesurvivors_over_50 were",survivors_over_50, file=outputfile)
-        outputfile.close()
+            outputfile.close()
 
 
 
-    main()
+        main()

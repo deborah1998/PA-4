@@ -1,0 +1,65 @@
+My Question:How many people are on this ship were above the age of 50 who survived?
+
+
+Function Name:read_in_file
+Purpose:read in a file from the user and return it once they give one that exists
+Parameters:None
+Return:filename
+Algorithm:
+
+1.)Ask the user to input a file
+2.)while the file does not exist:
+    a.)ask the user to input a file
+3.)return filename
+
+Function Name:process_file
+Purpose:process the file
+Parameters:infilename
+Return:None
+
+1.)Open the input file from the user.
+2.)set a variable representing the number of survivors equal to zero
+3.)set a variable representing the number of people in class one equal to 0
+4.)set a variable representing the number of people in class two equal to zero
+5.)set a variable representing the number of people in class three equal to zero
+6.) set a variable representing the nunmber of people on the titanic above the age of fifty to 0
+7.)For every line in input file:
+    a.class|survived|name|sex|age|embark|destination = line.split("|")
+    b.if survived is 1:
+        i) add one to the number of survivors
+         c.if  class is 1:
+            i) add one to the  number of people in class one
+            ii)divide the sum of the number of people  who survived in class one by the total number of survivors and multiply by 100
+
+         d. otherwise if class is 2:
+            i)add one to the number of people in class two
+            ii)divide sum of the number of people to survive in class two by the total  number of surviviors and multiply  by 100
+
+         e.otherwise if class is 3:
+            i)add one to the number of people in class two
+            ii)divide sum of the number of people to survive in class two by the total  number of surviviors and multiply  by 100
+
+            *question of my choosing
+
+         f.if age is > 50:
+            i)add one to the number of people on the titanic above the age of fifty
+            ii)divide sum of the number of people to survive who are above the age of 50  by the total  number of surviviors and multiply  by 100
+8.)close the input file
+
+
+
+
+
+Function Name:main
+Purpose:main
+Parameters:none
+Return:none
+
+1.)Output the purpose of the program to the user
+2.)Call the read_in_file function
+3.)Call the process_file function
+4.)Ask the user to name the output file
+5.)Open the output file for writing
+6.)Print the name of survivors ,destination of survivors ,total of survivors, the percentage of survivors from each class,
+ and the number of people who survived over the age of 50
+7.) close the outputfile
