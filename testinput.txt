@@ -1,0 +1,15 @@
+1|1|Dick, Mrs. Albert Adrian (Vera Gillespie)|female|17|S|Calgary, AB
+2|1|Brown, Miss. Edith Eileen|female|15|S|Cape Town, South Africa/Seattle, WA
+2|1|Hewlett, Mrs. (Mary D Kingcome) |female|55|S|India/Rapid City, SD
+3|1|Abelseth, Mr. Olaus Jorgensen|male|25|S|Perkins County, SD
+3|0|Williams, Mr. Howard Hugh Harry|male|0|S|XXX
+2|0|Montvila, Rev. Juozas|male|27|S|Worcester, MA
+3|1|Cribb, Miss. Laura Alice|female|17|S|Bournemouth, England Newark, NJ
+1|1|Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)|female|58|C|Germantown, Philadelphia, PA
+1|1|Andrews, Miss. Kornelia Theodosia|female|63|S|Hudson, NY
+1|1|Homer, Mr. Harry (Mr E Haven)|male|35|C|Indianapolis, IN
+2|1|Nasser, Mrs. Nicholas (Adele Achem)|female|14|C|New York, NY
+1|0|Ovies y Rodriguez, Mr. Servando|male|28.5|C|Havana, Cuba
+3|0|Crease, Mr. Ernest James|male|19|S|Bristol, England Cleveland, OH
+2|0|Myles, Mr. Thomas Francis|male|62|Q|Cambridge, MA
+3|1|Dahl, Mr. Karl Edwart|male|45|S|Australia Fingal, ND

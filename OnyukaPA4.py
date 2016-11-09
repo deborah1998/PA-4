@@ -48,9 +48,9 @@ def process_file(input_filename,outfile_name):
                 inputfile.close()
 
                 input("Please enter the the name of the outputfile")
-                outputfile = open(outfile_name.txt, "w")
-                print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
-                "\nThe percentage  of survivors form class two were", survivors_2, "\nThe percentage  of survivors form class one were", survivors_3,
+                outputfile = open(outfile_name, "w")
+                print("\n",name,destination,"\n","The number of survivors on the titanic were ", num_of_survivors,"\nThe percentage  of survivors form class one were",
+                survivors_1,"\nThe percentage  of survivors form class two were", survivors_2, "\nThe percentage  of survivors form class one were", survivors_3,
                 "\nThe percentagesurvivors_over_50 were",survivors_over_50, file=outfile_name)
 
 
@@ -63,6 +63,6 @@ def process_file(input_filename,outfile_name):
             print("This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class." +
             "\nThis program will also determine how many people survived the titanic who were over the age of 50 years old")
             read_in_file()
-            process_file()
+            process_file(inputfile,outputfile)
 
         main()

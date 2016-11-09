@@ -64,7 +64,9 @@ After your design is complete and correct, it’s time to start programming and 
   * Remember to state the purpose of the program
   * Follow iterative development to make your life easier. Implement ONE question, and get that working. Then worry about adding in the next question. New questions shouldn't stop old questions from working, but should only add on to it.
 * Testing: Make sure it works correctly; give it sample input, and check that the output is correct.
-  * Create a test file that contains at most 10-15 lines from the original file, or make up your own data in the same format. Name it testinput.txt. Create a set of test cases based on this test file (1 case per question). If you have a representative set of 10 lines (i.e. survivors, non-survivors, people of each sex, class, and embark point), then if it works on this file then it *probably* works on the real file. This is a standard way to test file code, because it makes it easier to figure out the right answer.
+  * Create a test file that contains at most 10-15 lines from the original file, or make up your own data in the same format. Name it testinput.txt.
+
+  Create a set of test cases based on this test file (1 case per question). If you have a representative set of 10 lines (i.e. survivors, non-survivors, people of each sex, class, and embark point), then if it works on this file then it *probably* works on the real file. This is a standard way to test file code, because it makes it easier to figure out the right answer.
   * Test your program using the test cases. Also test all error checking. Make sure it seems to work with the full file as well.
 
 ## ASSIGNMENT REMINDERS

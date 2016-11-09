@@ -4,4 +4,7 @@ such as splitting strings and concatenation as well as give me more practice wit
 I was struggling a lot while working on my code when it came to working with files and with the new error checking method of  try and except to
 prevent runtime errors in my code.Evrey time I would run my code it would output to the python console Process finished with exit code 0
 without displaying any of the information I would want my code to print under the main function.This frustrated me as I didn't know
-neccessarilly what I  was doing wrong in the first place.However i was al
+neccessarilly what I  was doing wrong in the first place.However I was rectified this problem by rearranging my code.In addition I  had intial problems
+saving the answers to questions to the outpile file but i tried various ways of writing the solution and referenced my class notes to fix that issue.
+I found it really interesting in this lab seeing how everything weve learned in class so far makes for better and more efficient code
+and allows us to have neater code as well.

@@ -45,11 +45,17 @@ Return:None
          f.if age is > 50:
             i)add one to the number of people on the titanic above the age of fifty
             ii)divide sum of the number of people to survive who are above the age of 50  by the total  number of surviviors and multiply  by 100
-    9.)except for when there is an error
-        a.)output "This file does not exist"
-        b.)end the program
 
-10.)close the input file
+
+9.)close the input file
+10.)Ask the user to name the output file
+11.)Open the output file for writing
+12.)Print the name of survivors ,destination of survivors ,total of survivors, the percentage of survivors from each class,and the number of people who survived over the
+age of 50 to the file
+13.)close the outputfile
+
+
+
 
 
 
@@ -63,8 +69,3 @@ Return:none
 1.)Output the purpose of the program to the user
 2.)Call the read_in_file function
 3.)Call the process_file function
-4.)Ask the user to name the output file
-5.)Open the output file for writing
-6.)Print the name of survivors ,destination of survivors ,total of survivors, the percentage of survivors from each class,and the number of people who survived over the
-age of 50 to the file
-7.)close the outputfile
