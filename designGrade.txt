@@ -12,7 +12,8 @@ Grade: 9/10
 * why do you have both a sum and a total number of people to survive? Aren't they the same thing?
 * You don't want to output any information until the loop is over, as that's when you'll have an answer
 * You can't find a percentage until you have a total, either, which is after you've processed the whole file
-* be careful about your counts -- you can't have 1 count keep track of 4 different values. Think about what you need to know to solve this problem.
+* be careful about your counts -- you can't have 1 count keep track of 4 different values.
+Think about what you need to know to solve this problem.
 
 [1.5/2]Saves name/destination to a file, properly deals with output files
 * Need to incorporate into your for loop, as that's the only way you'll have access to each person
