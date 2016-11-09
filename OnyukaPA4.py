@@ -33,12 +33,7 @@ def process_file(infilename):
                 if age > 50:
                     people_over_50+=1
                     survivors_over_50 = (people_over_50/num_of_survivors)*100
-
-
-
-
-
-
+        inputfile.close()
 
 
 
@@ -51,5 +46,10 @@ def process_file(infilename):
         print( "This program will determine the total amount of survivors on the titanic as well as the ")
         process_file()
         outfile_name=input("Please enter the the name of the outputfile")
+        outputfile=open(outfile_name,"w")
+        print("The number of survivors on the titanic were ",num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
+        "\nThe percentage  of survivors form class two were",survivors_2 ,"\nThe percentage  of survivors form class one were",survivors_3,
+        "\nThe percentagesurvivors_over_50 were",survivors_over_50)
+
 
     main()
