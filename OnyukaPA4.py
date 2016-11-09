@@ -11,7 +11,8 @@ def process_file(inputfile, outputfile):
         inputfile = open(filename, "r")
         count = 0
         sum = 0
-        for line in inputfile
+        for line in inputfile:
+            class,survived,name,sex, age, embark,destination = line.split("")
 
 
 
