@@ -12,8 +12,9 @@ def process_file(infilename, outfilename):
         count = 0
         sum = 0
         for line in inputfile:
-            class,survived,name,sex ,age ,embark,destination = line.split("|")
+            status,survived,name,sex ,age ,embark,destination = line.split("|")
             if survived ==1:
+
 
 
 
