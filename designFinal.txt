@@ -62,4 +62,4 @@ Return:none
 5.)Open the output file for writing
 6.)Print the name of survivors ,destination of survivors ,total of survivors, the percentage of survivors from each class,
  and the number of people who survived over the age of 50
-7.) close the outputfile
+7.)close the outputfile
