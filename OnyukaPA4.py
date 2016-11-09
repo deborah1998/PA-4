@@ -1,6 +1,13 @@
 import os
 
 
+#Function Name:read_in_file
+#Purpose:read in a file from the user and return it once they give one that exists
+#Parameters:None
+#Return:filename
+#Algorithm:
+
+
 def read_in_file():
     filename = input("Please enter the file you would like to input")
     while not os.path.exists(filename):
