@@ -5,18 +5,23 @@ import os
 #Purpose:read in a file from the user and return it once they give one that exists
 #Parameters:None
 #Return:filename
-#Algorithm:
-
 
 def read_in_file():
     filename = input("Please enter the file you would like to input")
     while not os.path.exists(filename):
         filename = input("Please enter the file you would like to input")
 
+    return filename
+
+#Function Name:proccess_file
+#Purpose:proccessing the files
+#Parameters:input_filename,outfile_name
+#Return:none
+
 
 def process_file(input_filename,outfile_name):
 
-
+#use try and except to prevent runtime errors
     try:
 
         inputfile = open(input_filename, "r")
