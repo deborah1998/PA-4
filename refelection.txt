@@ -4,4 +4,4 @@ such as splitting strings and concatenation as well as give me more practice wit
 I was struggling a lot while working on my code when it came to working with files and with the new error checking method of  try and except to
 prevent runtime errors in my code.Evrey time I would run my code it would output to the python console Process finished with exit code 0
 without displaying any of the information I would want my code to print under the main function.This frustrated me as I didn't know
-neccessarilly what I  was doing wrong in the first place.
+neccessarilly what I  was doing wrong in the first place.However i was al
