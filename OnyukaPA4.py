@@ -37,8 +37,7 @@ def process_file(infilename):
 
 
 
-    except:
-        FileNotFoundError
+    except:FileNotFoundError
     print("File does not exist")
     SystemExit(1)
 
@@ -51,7 +50,7 @@ def process_file(infilename):
         outputfile=open(outfile_name,"w")
         print("The number of survivors on the titanic were ",num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
         "\nThe percentage  of survivors form class two were",survivors_2 ,"\nThe percentage  of survivors form class one were",survivors_3,
-        "\nThe percentagesurvivors_over_50 were",survivors_over_50)
+        "\nThe percentagesurvivors_over_50 were",survivors_over_50, file=outputfile)
         outputfile.close()
 
 
