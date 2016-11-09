@@ -43,7 +43,8 @@ def process_file(infilename):
     SystemExit(1)
 
     def main():
-        print( "This program will determine the total amount of survivors on the titanic as well as the ")
+        print( "This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class."+
+        "\nThis program will also determine how many people survived the titanic who were over the age of 50 years old")
         process_file()
         outfile_name=input("Please enter the the name of the outputfile")
         outputfile=open(outfile_name,"w")
