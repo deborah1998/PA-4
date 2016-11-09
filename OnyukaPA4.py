@@ -19,6 +19,8 @@ def process_file(infilename,outfilename):
                 num_of_survivors = sum
                 print("The number  of people to survive tht titanic are"+num_of_survivors)
                 if status ==1:
+                count=0
+
 
 
 
