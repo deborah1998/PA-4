@@ -22,7 +22,8 @@ Return:None
 1.)Open the input file from the user.
 2.)set count equal to zero
 3.)set sum equal to zero
-4.)For every line in input file:
+4.)try
+5.) try for every line in input file:
     a.class|survived|name|sex|age|embark|destination = line.split("|")
     b.if survived is 1:
         i) add one to count
@@ -47,7 +48,8 @@ Return:None
          f.if age is > 50:
             i)add one to count
             ii)output the total number of people above the age of 50 who survived
-     5.)close the input file
+     6.)close the input file
+
 
 
 

@@ -23,7 +23,8 @@ Return:None
 4.)set a variable representing the number of people in class two equal to zero
 5.)set a variable representing the number of people in class three equal to zero
 6.) set a variable representing the nunmber of people on the titanic above the age of fifty to 0
-7.)For every line in input file:
+7.)try
+8.) try for every line in input file:
     a.class|survived|name|sex|age|embark|destination = line.split("|")
     b.if survived is 1:
         i) add one to the number of survivors
@@ -44,7 +45,11 @@ Return:None
          f.if age is > 50:
             i)add one to the number of people on the titanic above the age of fifty
             ii)divide sum of the number of people to survive who are above the age of 50  by the total  number of surviviors and multiply  by 100
-8.)close the input file
+    9.)except for when there is an error
+        a.)output "This file does not exist"
+        b.)end the program
+
+10.)close the input file
 
 
 
