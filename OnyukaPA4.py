@@ -8,11 +8,11 @@ def read_in_file():
 
 def process_file(inputfile, outputfile):
     try:
-        inputfile = open(filename, "r")
+        inputfile = open(filename,"r")
         count = 0
         sum = 0
         for line in inputfile:
-            class,survived,name,sex, age, embark,destination = line.split("")
+            class survived name sex  age  embarkdestination = line.split("")
 
 
 
