@@ -16,6 +16,7 @@ def read_in_file():
 
 def process_file(input_filename,outfile_name):
 
+    global survivors_2, survivors_over_50, survivors_3, survivors_1
     try:
 
         inputfile = open(input_filename, "r")
@@ -38,21 +39,21 @@ def process_file(input_filename,outfile_name):
 
                 elif status == 3:
                     people_class3 += 1
-                survivors_3 = (people_class3 / num_of_survivors) * 100
+                    survivors_3 = (people_class3 / num_of_survivors) * 100
 
                 if age > 50:
                     people_over_50 += 1
                     survivors_over_50 = (people_over_50 / num_of_survivors) * 100
 
+                inputfile.close()
+
                 input("Please enter the the name of the outputfile")
                 outputfile = open(outfile_name.txt, "w")
-                print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,
-                      "\nThe percentage  of survivors form class one were", survivors_1,
-                      "\nThe percentage  of survivors form class two were", survivors_2,
-                      "\nThe percentage  of survivors form class one were", survivors_3,
-                      "\nThe percentagesurvivors_over_50 were", survivors_over_50, file=outputfile)
+                print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,"\nThe percentage  of survivors form class one were",survivors_1,
+                "\nThe percentage  of survivors form class two were", survivors_2, "\nThe percentage  of survivors form class one were", survivors_3,
+                "\nThe percentagesurvivors_over_50 were", survivors_over_50, file=outfile_name)
 
-                inputfile.close()
+
                 outputfile.close()
     except FileNotFoundError:
         print("This file does not exist")
@@ -63,13 +64,5 @@ def process_file(input_filename,outfile_name):
             "\nThis program will also determine how many people survived the titanic who were over the age of 50 years old")
             read_in_file()
             process_file()
-            outfile_name = input("Please enter the the name of the outputfile")
-            outputfile = open(outfile_name, "w")
-            print(name, destination, "The number of survivors on the titanic were ", num_of_survivors,
-                  "\nThe percentage  of survivors form class one were", survivors_1,
-                  "\nThe percentage  of survivors form class two were", survivors_2,
-                  "\nThe percentage  of survivors form class one were", survivors_3,
-                  "\nThe percentagesurvivors_over_50 were", survivors_over_50, file=outputfile)
-            outputfile.close()
 
         main()
