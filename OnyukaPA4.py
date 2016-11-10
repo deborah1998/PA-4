@@ -80,6 +80,7 @@ def process_file(filename,outfile_name):
         print("This file does not exist")
         SystemExit(1)
 
+
 def main():
     print("This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class.")
     print("This program will also determine how many people survived the titanic who were over the age of 50 years old")
