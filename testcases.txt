@@ -1,3 +1,43 @@
-Testcases:
+Testcase1:
+Description:When a valid input for the file is given
 
+Input for inputfile:testinput.txt
+Input for outputfile:outfile.txt
+Output:
+The number of survivors is 10.
+The percent of survivors in class 1 is 80.0.
+The percent of survivors in class 2 is 60.0.
+The percent of survivors in class 3 is 60.0.
+The percent of survivors over the age of  50 are 75.0.
+
+Testcase2:
+Description:When an invalid input for the file is given
+Input:salad.txt
+Output:
+please enter the file you would like to input:(loop until user gives a valid input)
+
+Testcase3:
+Description: input a valid  filename and write to the output file
+Input for input file:testinput.txt
+Input for output file:outfile.txt
+Output(the info written to the testinput file the name and destination of the surivior):
+Dick, Mrs. Albert Adrian (Vera Gillespie) Calgary, AB
+
+Brown, Miss. Edith Eileen Cape Town, South Africa/Seattle, WA
+
+Hewlett, Mrs. (Mary D Kingcome)  India/Rapid City, SD
+
+Abelseth, Mr. Olaus Jorgensen Perkins County, SD
+
+Cribb, Miss. Laura Alice Bournemouth, England Newark, NJ
+
+Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake) Germantown, Philadelphia, PA
+
+Andrews, Miss. Kornelia Theodosia Hudson, NY
+
+Homer, Mr. Harry (Mr E Haven) Indianapolis, IN
+
+Nasser, Mrs. Nicholas (Adele Achem) New York, NY5
+
+Dahl, Mr. Karl Edwart Australia Fingal, ND
 
