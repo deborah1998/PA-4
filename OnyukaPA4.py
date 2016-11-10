@@ -81,6 +81,11 @@ def process_file(filename,outfile_name):
         print("This file does not exist")
         SystemExit(1)
 
+#Function Name:main
+#Purpose:run the overall program
+#Parameters:none
+#Return:none
+
 
 def main():
     print("This program will determine the total amount of survivors on the titanic as well as the percentage of people who survived from each class.")
