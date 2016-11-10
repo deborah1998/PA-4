@@ -14,49 +14,55 @@ Algorithm:
 
 Function Name:process_file
 Purpose:process the file
-Parameters:infilename
+Parameters:filename,outfile_name
 Return:None
 
+1.)try
 1.)Open the input file from the user.
+2.)Open the output file that the user names.
 2.)set a variable representing the number of survivors equal to zero
 3.)set a variable representing the number of people in class one equal to 0
 4.)set a variable representing the number of people in class two equal to zero
 5.)set a variable representing the number of people in class three equal to zero
-6.) set a variable representing the nunmber of people on the titanic above the age of fifty to 0
-7.)try
-8.) try for every line in input file:
+6.)set a variable representing the nunmber of people on the titanic above the age of fifty to 0
+7.)set a variable representing the number of survivors in class one  equal to zero
+8.)set a variable representing the number of survivors in class two equal to zero
+9.)set a variable representing the number of survivors in class three equal to zero
+10.)set a variable representing the number ofsurvivors above the age of 50 equal to zero
+11.) try for every line in input file:
     a.class|survived|name|sex|age|embark|destination = line.split("|")
     b.if survived is 1:
         i) add one to the number of survivors
+        ii)print the  name and destination of surviviors and store it in the output file that the user names
          c.if  class is 1:
             i) add one to the  number of people in class one
-            ii)divide the sum of the number of people  who survived in class one by the total number of survivors and multiply by 100
+                d.if survived is 1:
+                        i)add one to the number of survivors in class one
 
-         d. otherwise if class is 2:
+         e. otherwise if class is 2:
             i)add one to the number of people in class two
-            ii)divide sum of the number of people to survive in class two by the total  number of surviviors and multiply  by 100
+                f.if survived is 1:
+                        i)add one to the number of survivors in class two
 
-         e.otherwise if class is 3:
+         g.otherwise if class is 3:
             i)add one to the number of people in class two
-            ii)divide sum of the number of people to survive in class two by the total  number of surviviors and multiply  by 100
+            h.if survived is 1:
+                        i)add one to the number of survivors in class three
 
             *question of my choosing
 
-         f.if age is > 50:
+         i.if age is > 50:
             i)add one to the number of people on the titanic above the age of fifty
-            ii)divide sum of the number of people to survive who are above the age of 50  by the total  number of surviviors and multiply  by 100
+            j.if survived is 1:
+                        i)add one to the number of survivors above the age of 50
 
 
-9.)close the input file
-10.)Ask the user to name the output file
-11.)Open the output file for writing
-12.)Print the name of survivors ,destination of survivors ,total of survivors, the percentage of survivors from each class,and the number of people who survived over the
-age of 50 to the file
-13.)close the outputfile
-
-
-
-
+ set a variable for the percantage of people to survive in class one equal to survivors in class1  divide by people in class1  then multiply by100
+ set a variable for the percantage of people to survive in class two  equal to survivors in class2  divide by people in class2  then multiply by100
+ set a variable for the percantage of people to survive in class three  equal to survivors in class3  divide by people in class3  then multiply by100
+ set a variable for the percantage of people to survive above the age of 50 equal to survivors over 50  divide by people over the age of 50  then multiply by100
+ output "The number of survivors is",num_of_survivors,"The percent of survivors in class 1 is", survivors_1,"The percent of survivors in class 2 is",survivors_2
+ output "The percent of survivors in class 3 is",survivors_3,"The percent of survivors over the age of  50 are",survivors_over_50
 
 
 

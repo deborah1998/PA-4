@@ -1,9 +1,10 @@
 Testcase1:
-Description:When a valid input for the file is given
+Description:When a valid input for the file is given and sisplays the results of the calculations for total survivors ,survivors in each class and survivors
+over the age of 50
 
 Input for inputfile:testinput.txt
 Input for outputfile:outfile.txt
-Output:
+Output( to the console):
 The number of survivors is 10.
 The percent of survivors in class 1 is 80.0.
 The percent of survivors in class 2 is 60.0.
