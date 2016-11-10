@@ -8,7 +8,7 @@
 1|1|Cardeza, Mrs. James Warburton Martinez (Charlotte Wardle Drake)|female|58|C|Germantown, Philadelphia, PA
 1|1|Andrews, Miss. Kornelia Theodosia|female|63|S|Hudson, NY
 1|1|Homer, Mr. Harry (Mr E Haven)|male|35|C|Indianapolis, IN
-2|1|Nasser, Mrs. Nicholas (Adele Achem)|female|14|C|New York, NY
+2|1|Nasser, Mrs. Nicholas (Adele Achem)|female|14|C|New York, NY5
 1|0|Ovies y Rodriguez, Mr. Servando|male|28.5|C|Havana, Cuba
 3|0|Crease, Mr. Ernest James|male|19|S|Bristol, England Cleveland, OH
 2|0|Myles, Mr. Thomas Francis|male|62|Q|Cambridge, MA
