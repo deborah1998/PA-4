@@ -17,6 +17,7 @@ Purpose:process the file
 Parameters:filename,outfile_name
 Return:None
 
+
 1.)try
 1.)Open the input file from the user.
 2.)Open the output file that the user names.
