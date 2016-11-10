@@ -16,7 +16,7 @@ def read_in_file():
 
 #Function Name:proccess_file
 #Purpose:proccessing the files
-#Parameters:input_filename,outfile_name
+#Parameters:filename,outfile_name
 #Return:none
 
 
