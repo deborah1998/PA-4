@@ -57,12 +57,17 @@ Return:None
                         i)add one to the number of survivors above the age of 50
 
 
- set a variable for the percantage of people to survive in class one equal to survivors in class1  divide by people in class1  then multiply by100
- set a variable for the percantage of people to survive in class two  equal to survivors in class2  divide by people in class2  then multiply by100
- set a variable for the percantage of people to survive in class three  equal to survivors in class3  divide by people in class3  then multiply by100
- set a variable for the percantage of people to survive above the age of 50 equal to survivors over 50  divide by people over the age of 50  then multiply by100
- output "The number of survivors is",num_of_survivors,"The percent of survivors in class 1 is", survivors_1,"The percent of survivors in class 2 is",survivors_2
- output "The percent of survivors in class 3 is",survivors_3,"The percent of survivors over the age of  50 are",survivors_over_50
+    12.)set a variable for the percantage of people to survive in class one equal to survivors in class1  divide by people in class1  then multiply by100
+    13.)set a variable for the percantage of people to survive in class two  equal to survivors in class2  divide by people in class2  then multiply by100
+    14.)set a variable for the percantage of people to survive in class three  equal to survivors in class3  divide by people in class3  then multiply by100
+    15.)set a variable for the percantage of people to survive above the age of 50 equal to survivors over 50  divide by people over the age of 50  then multiply by100
+    16.)output "The number of survivors is",num_of_survivors,"The percent of survivors in class 1 is", survivors_1,"The percent of survivors in class 2 is",survivors_2
+    17.)output "The percent of survivors in class 3 is",survivors_3,"The percent of survivors over the age of  50 are",survivors_over_50
+    18.)close the input file
+    19.)close the output file
+    20.)except an error
+       a. output "This file does not exist"
+       b.end the program
 
 
 
