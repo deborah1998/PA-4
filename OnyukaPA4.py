@@ -65,6 +65,7 @@ def process_file(filename,outfile_name):
                     survivors_age50+=1
 
 
+
         survivors_1 = (survivors_class1 / people_class1) * 100
         survivors_2 = (survivors_class2 / people_class2) * 100
         survivors_3 = (survivors_class3 / people_class3) * 100
