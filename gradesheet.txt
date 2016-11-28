@@ -1,0 +1,39 @@
+CS201 Programming Assignment 4 checklist & grading sheet
+PA Grade = 45 / 50
+
+Comments:
+0/2 Intro comments complete and clear
+0/1 Appropriate in-line commentary given
+2/2 Function comments provided for every function
+
+Format:
+1/1 Proper use of upper/lowercase
+1/1 Appropriate use of whitespace
+
+Supporting Documents:
+2/2 Algorithm 
+3/3 Test cases on test file
+2/2 Reflection
+
+Correctness/Completeness Issues:
+2/2 User provides input and output file name
+2/2 Error checking on input file name
+3/3 Reads from the file correctly
+2/2 Typecasting of file values or user input are done as necessary
+3/3 Calculates the total number of people to survive 
+3/3 Calculates the percentage of each class to survive
+2.5/3 Saves to a file the name and destination of all survivors, one per line - use .strip() so there isn't a blank line between each one
+3/3 Answers own question correctly, as described in design
+0/1 percentage is in format requested
+2/2 outputs results
+1/1 No other logic errors
+
+Design Issues:
+1/1 Appropriate variable names
+2/2 Clear prompts
+2.5/3 Clear and well formatted output - put each answer on its own line so it's easier to read
+5/5 Appropriate function design
+
+Extra Credit: particularly interesting 4th question
+
+Additional Comments:
